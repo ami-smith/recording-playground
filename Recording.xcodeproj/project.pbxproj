@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		846D60612A315D0C0060D7CA /* RecordingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D60602A315D0C0060D7CA /* RecordingApp.swift */; };
-		846D60632A315D0C0060D7CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D60622A315D0C0060D7CA /* ContentView.swift */; };
+		846D60632A315D0C0060D7CA /* MainRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D60622A315D0C0060D7CA /* MainRecordingView.swift */; };
 		846D60652A315D0D0060D7CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846D60642A315D0D0060D7CA /* Assets.xcassets */; };
 		846D60682A315D0D0060D7CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846D60672A315D0D0060D7CA /* Preview Assets.xcassets */; };
 		846D60722A315D0D0060D7CA /* RecordingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D60712A315D0D0060D7CA /* RecordingTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		846D605D2A315D0C0060D7CA /* Recording.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recording.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846D60602A315D0C0060D7CA /* RecordingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingApp.swift; sourceTree = "<group>"; };
-		846D60622A315D0C0060D7CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		846D60622A315D0C0060D7CA /* MainRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRecordingView.swift; sourceTree = "<group>"; };
 		846D60642A315D0D0060D7CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846D60672A315D0D0060D7CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		846D606D2A315D0D0060D7CA /* RecordingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				846D60602A315D0C0060D7CA /* RecordingApp.swift */,
-				846D60622A315D0C0060D7CA /* ContentView.swift */,
+				846D60622A315D0C0060D7CA /* MainRecordingView.swift */,
 				846D60642A315D0D0060D7CA /* Assets.xcassets */,
 				846D60662A315D0D0060D7CA /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				846D60632A315D0C0060D7CA /* ContentView.swift in Sources */,
+				846D60632A315D0C0060D7CA /* MainRecordingView.swift in Sources */,
 				846D60612A315D0C0060D7CA /* RecordingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
